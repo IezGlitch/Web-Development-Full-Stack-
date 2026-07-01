@@ -7,33 +7,53 @@
 </head>
 <body>
     <header>
-        <nav>
+        <nav style="background-color: bisque; width:100px; height:100px ;">
             <ul>
-                <li><a href ="#home">Home</a></li>
-                <li><a href ="">Menu</a></li>
-                <li><a href ="">Review</a></li>
-                <li><a href ="">Contact</a></li>
+                <li><a href ="#Home">Home</a></li>
+                <li><a href ="#Menu">Menu</a></li>
+                <li><a href ="#Review">Review</a></li>
+                <li><a href ="#Contact">Contact</a></li>
                 <li><a href="login.html">Login</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <section>
+        <section id="Home">
             <h2>About</h2>
             <p>Welcome to My Cafe</p>
         </section>
-        <section id = >
-            <h2>
-                Review
-            </h2>
+        <section id="Menu">
+                <div style="background-color:blanchedalmond;"><!--Always bydefault take 100% Wiidth-->
+                    <h2>Menu</h2>
+                    <div style="height:300px; width:300px;"">
+                        <img src="https://images.pexels.com/photos/13013307/pexels-photo-13013307.jpeg" alt="Coffee;" height="200px;" width="200px;">
+                        <p>Filter Coffe</p>
+                        <p>99.99</p>
+                        <button>Buy Now</button>
+                    </div>
+                    <br>
+                    <div style="background-color: blanchedalmond;" height="300px;" width="300px;">
+                        <img src="https://images.pexels.com/photos/11285384/pexels-photo-11285384.jpeg" alt="Tea" height="200px;" width="200px;">
+                        <p>Tea</p>
+                        <p>49.99</p>
+                        <button>Buy Now</button>
+            </div>
         </section>
-        <section>
+        <section id ="Review">
+            <h1>Review</h1>
+            <div>
+                <h2>Yash</h2>
+                <p>Good Coffee</p>
+             </div>
+        </section>
+        <section id="Contact">
             <h2>Contact</h2>
             <p>To contact visit contact@gmail.com</p>
+            <p>Contact</p>
         </section>
     </main>
-    <footer>
-        <p> </p>
+    <footer><!-- Use for stuffs like copyright faq etc..-->
+        <p>&copy; All Right Reserved</p>
     </footer>
 </body>
 </html>
