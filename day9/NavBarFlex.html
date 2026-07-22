@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        nav{
+            background: black;
+            padding: 20px 50px;
+            display:flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        h2{
+            color: white;
+        }
+        .menu{
+            display: flex;
+            gap: 10px;
+        }
+        a{
+            color: white;
+            text-decoration: none;
+        }
+        a:hover{
+            color: yellowgreen;
+            transition: 0.4sec;
+        }
+        .search{
+            background-color: azure;
+            width: 300px;
+            text-align: center;
+            border-radius: 5px ;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <h2>Code Academy</h2>
+        <div class="search">
+            <p>Search here</p>
+        </div>
+        <div class="menu">
+            <a href="#menu">Home</a>
+            <a href="#menu">Courses</a>
+            <a href="#menu">Project</a>
+            <a href="#menu">Login</a>
+        </div>
+    </nav>
+</body>
+</html>
