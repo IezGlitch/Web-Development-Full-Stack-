@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        let name = "john"
+        let country = "Russia"
+        console.log("My Name is", name , "and I am from",country, "Good Evening")
+        // New Way - Cleaned and Readable-backtick ``$(Varoable/Parameter)
+
+        console.log(`Dear ${name},
+        How are you? Did you come from ${country},
+        Have a nice dat
+        `)
+
+        //Arrow Function
+        function xyz(){
+            console.log("Hello i am old Function")
+        }
+        xyz{}
+        let abc = ()=> 
+        { console.log("Hello I am Arrow Function")
+        }
+        abc()  //Calling the Arrow Function
+
+        setTimeout(()=>{
+            console.log("I will Give You the OUTPUT")
+        })
+    </script>
+</body>
+</html>
