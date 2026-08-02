@@ -5,35 +5,58 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Employee Dashboard</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" type="image
-    <!-- Google fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <!--Icons-->
-   <link rel="stylesheet" href =https://cdjns.cloudflare.com/ajax/libs/font-awesome
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 </head>
 <body>
     <div class="container">
         <!-- Side Bar-->
-         <h2 class="logo">EmployeeHub</h2>
+        <aside>
+            <h2 class="logo">EmployeeHub</h2>
          <ul>
-            <li><i class="f</i>Dashboard</li>
-            <li><i class="f</i>Employees</li>
-            <li><i class="f</i>Reports</li>
-            <li><i class="f</i>Settings</li>
-            <li><i class="f</i>Logout</li>
+            <li><i class="fa-solid fa-house"></i> Dashboard</li>
+            <li><i class="fa-solid fa-user"></i> Employees</li>
+            <li><i class="fa-solid fa-building"></i> Reports</li>
+            <li><i class="fa-solid fa-gear"></i> Settings</li>
+            <li><i class="fa-solid fa-right-from-bracket"></i> Logout</li>
          </ul>
         </aside>
 
         <main class="main-content">
             <!-- Navbar -->
-             <header class="navbar">
-                <input type="button"
-             </header>
+                <header class="navbar">
+                <input type="tel"; placeholder="Search Employee">
+                <div class="profile">
+                    <i class="fa-solid fa-bell"></i>
+                    <img src="https://i.pravatar.cc/40" alt="User image">
+                    <span>Admin</span>
+                </div>
+                </header>
 
              <!--Dashboard Title-->
              <h1>Dashbard Overview</h1>
-            </section>
 
+             <!-- Cards -->
+            <section class="cards">
+                <div class="card">
+                    <h3>Total Employees</h3>
+                    <p>250</p>
+                </div>
+                 <div class="card">
+                    <h3>Active</h3>
+                    <p>220</p>
+                </div>
+                 <div class="card">
+                    <h3>On Leave</h3>
+                    <p>15</p>
+                </div>
+                 <div class="card">
+                    <h3>Departments</h3>
+                    <p>8</p>
+                </div>
+            </section>
+            
             <!-- Table -->
              <section class="employee-section">
                 <div class="table-header">
@@ -48,7 +71,6 @@
                             <th>Salary</th>
                             <th>Status</th>
                             <th>Action</th>
-                            <th>Experience</th>
                         </tr>
                     </thead>
                     <tbody>
